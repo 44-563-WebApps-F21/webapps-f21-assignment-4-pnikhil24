@@ -33,3 +33,71 @@
     font-size: 13px;
     color: mediumturquoise
 }
+
+th,td{
+    border: 3px solid;
+    color: darkblue;
+    text-align: center;
+    padding: 8px;
+    margin: 25px 50px 75px 100px;
+}
+
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: burlywood;
+}
+.name:hover{
+
+    text-shadow: 2px 3px 5px blueviolet;
+    border: 5px solid violet;
+    box-shadow: 11px 11px 6px mediumturquoise;
+    color: transparent;
+}
+
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    background-color: violet;
+}
+
+li{
+    float:left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: darkorange;
+}
+.active{
+    background-color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
