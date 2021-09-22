@@ -5,18 +5,31 @@
 }
 
 .stagedirections{
+    font-family: serif;
+    font-size: 19px;
+    color: black;
     background-color: lightgreen;
 }
 
+.name{
+    font-family: Garamond;
+    font-size: 20px;
+    color: black;
+
+}
 .stagedirections:hover{
     background-color: blue;
     color: goldenrod;
 }
 
-.goring{
-    color: hotpink;
+.lord{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: limegreen
 }
 
 .robert{
-    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    color: mediumturquoise
 }
